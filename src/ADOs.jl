@@ -202,3 +202,10 @@ function Expect(op, ados_list::Vector{ADOs}; take_real=true)
         return exp_val
     end
 end
+
+@doc raw"""
+    eigenADO()
+"""
+function eigenADO()
+    pass
+end
