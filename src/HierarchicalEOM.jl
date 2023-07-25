@@ -68,7 +68,7 @@ module HierarchicalEOM
         export
             AbstractHEOMMatrix, M_S, M_Boson, M_Fermion, M_Boson_Fermion,
             odd, even,
-            ADOs, getRho, getADO, Expect, eigenADO
+            ADOs, getRho, getADO, Expect, eigenADO,
             Nvec, AbstractHierarchyDict, HierarchyDict, MixHierarchyDict, getIndexEnsemble,
             Propagator, addBosonDissipator, addFermionDissipator, addTerminator,
             evolution, SteadyState
